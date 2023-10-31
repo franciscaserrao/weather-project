@@ -1,3 +1,4 @@
+let now = new Date();
 let hour = now.getHours();
 if (hour < 10) {
   hour = "0" + hour;
@@ -82,4 +83,3 @@ function currentLocation(event) {
 
 let locationButton = document.querySelector("#current-location");
 locationButton.addEventListener("click", currentLocation);
-let now = new Date();
