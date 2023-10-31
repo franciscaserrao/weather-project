@@ -1,0 +1,91 @@
+video {
+  position: absolute;
+  opacity: 60%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  object-fit: cover;
+}
+.video-wrapper {
+  justify-content: center;
+}
+
+.content {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+  border: 1px solid #d8d8d9;
+  color: #7a7a7b;
+  background: rgba(255, 255, 255, 0.801);
+  border-radius: 5px;
+  margin: 75px auto;
+  padding: 30px;
+  position: relative;
+  max-width: 98%;
+}
+.search-bar {
+  margin-bottom: 30px;
+}
+.day-description {
+  font-size: 15px;
+}
+.day-info {
+  font-size: 15px;
+}
+.material-symbols-outlined {
+  color: #ffcc01;
+  font-size: 150px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+h2 {
+  font-size: 150px;
+  text-align: right;
+  font-weight: 200;
+}
+
+.ºc:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #0168d9;
+}
+.ºf:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #0168d9;
+}
+.week {
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 0px 0px 10px 0px;
+}
+.cloud {
+  color: grey;
+}
+.rain {
+  color: rgb(74, 95, 172);
+}
+.col-2 {
+  text-align: center;
+  padding-bottom: 0;
+}
+.preview {
+  margin-top: 25px;
+  padding-top: 10px;
+}
+.col {
+  text-align: center;
+}
+#current-location {
+  background: #0168d9;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  line-height: 1.5;
+}
+.button-search {
+  text-align: right;
+}
